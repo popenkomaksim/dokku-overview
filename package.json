@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "engines": {
-    "node": "8.9.4",
-    "npm": "5.6.0"
-  },
   "scripts": {
-    "postinstall": "npm i --dev",
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
