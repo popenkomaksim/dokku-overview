@@ -1,7 +1,7 @@
 {
-  "name": "code-splitting-in-react-apps-presentation",
-  "version": "1.0.1",
-  "description": "The talk for ReactJS Poznan Meeting",
+  "name": "dokku-overview",
+  "version": "1.0.0",
+  "description": "",
   "main": "lib/index.js",
   "engines": {
     "node": "8.9.4",
