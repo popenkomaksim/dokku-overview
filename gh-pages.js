@@ -1,2 +1,2 @@
 const ghpages = require('gh-pages');
-ghpages.publish('dist', function(err) {});
+ghpages.publish('dokku-overview', function(err) {});
