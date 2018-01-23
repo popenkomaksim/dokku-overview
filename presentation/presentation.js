@@ -135,7 +135,6 @@ class Presentation extends React.Component {
           notes={`
           <ul>
             <li>Technology Consultancy & Solution Desing</li>
-            <li>Wroclaw & Lublin</li>
           </ul>
         `}
         >
@@ -185,15 +184,98 @@ class Presentation extends React.Component {
               Nobody said that managing own server-side applications and servers is easy.
             </Quote>
             <Cite>
-              <Link
-                href="https://webpack.js.org/"
-                target="__blank"
-                textColor="lightBlue"
-              >
-                Gregory Skovoroda
-              </Link>
+              Gregory Skovoroda
             </Cite>
           </BlockQuote>
+        </Slide>
+
+        <Slide
+          transition={["fade"]}
+          bgColor="green"
+          notes={`
+            <ul>
+              <li></li>
+            </ul>
+          `}
+        >
+          <Heading size={1} textColor="white">
+            Quick review
+          </Heading>
+          <List
+            textColor="white"
+            style={{ listStyle: "none", textAlign: "center" }}
+          >
+            <ListItem style={{ marginBottom: "0.5em" }}>
+              First commit dated to Jun 8, 2013
+            </ListItem>
+            <ListItem>
+              v0.11.3, distributed under MIT License
+            </ListItem>
+            <ListItem>
+              4 sponsors and 30 backers
+            </ListItem>
+            <ListItem>
+              🌟&nbsp;14,951 on GitHub
+            </ListItem>
+            <ListItem>
+              👨‍👨‍👧‍👦&nbsp;100 contributors
+            </ListItem>
+            <ListItem>
+              🎊&nbsp;4`024 commits
+            </ListItem>
+            <ListItem>
+              🚀&nbsp;90 releases
+            </ListItem>
+          </List>
+        </Slide>
+
+        <Slide
+          transition={[]}
+          bgColor="blue"
+          notes={`
+            <ul>
+              <li>It's not that easy to achieve</li>
+            </ul>
+          `}
+        >
+
+
+          <Terminal
+            showFirstEntry
+            title="1. maksym@popenko: ~(zsh)"
+            output={[
+              <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 100 }}>
+                git remote add dokku dokku@airline.com:booking
+              </Typist>,
+              <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 100 }}>
+                git push dokku master
+              </Typist>,
+              <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 100 }}>
+                git push dokku master
+              </Typist>,
+              <div>
+                <div> </div>
+                <div>Creating an optimized production build...</div>
+                <div style={{ color: colors.green }}>
+                  Compiled successfully.
+                </div>
+                <div> </div>
+                <div>File sizes after gzip:</div>
+                <div>
+                  47.09 KB (151 KB) build/static/js/<span
+                  style={{ color: colors.green }}
+                >
+                    main.8b0e51a6.js
+                  </span>
+                </div>
+                <div>
+                  289 B build/static/css/<span style={{ color: colors.green }}>
+                    main.9a0fe4f1.css
+                  </span>
+                </div>
+              </div>
+            ]}
+          />
         </Slide>
 
 
