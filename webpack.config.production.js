@@ -9,9 +9,9 @@ module.exports = {
     "./index"
   ],
   output: {
-    path: path.join(__dirname, "dist/dist"),
+    path: path.join(__dirname, "dokku-overview"),
     filename: "bundle.js",
-    publicPath: "/dist/"
+    publicPath: "/dokku-overview/"
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
