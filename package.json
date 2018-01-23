@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
+    "copy:static": "copyfiles index.html .nojekyll 404.html robots.txt ./dist/ && echo 'Static files copied.'",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js && npm run copy:static",
     "lint": "eslint --ext .js,.jsx .",
     "deploy": "npm run clean & npm run build && surge -p .",
     "development": "cross-env NODE_ENV=development node server.js",
@@ -14,15 +15,16 @@
   "author": "Maksym Popenko <popenkomaksim@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "1.1.0",
     "normalize.css": "3.0.3",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-loadable": "^3.3.1",
-    "react-typist": "^1.1.1",
-    "spectacle": "^2.1.0",
-    "spectacle-code-slide": "^0.4.0",
-    "spectacle-terminal": "^0.3.0",
-    "spectacle-theme-nova": "^1.3.0"
+    "react": "15.6.2",
+    "react-dom": "15.6.2",
+    "react-loadable": "3.3.1",
+    "react-typist": "1.1.1",
+    "spectacle": "2.2.2",
+    "spectacle-code-slide": "0.4.0",
+    "spectacle-terminal": "0.3.0",
+    "spectacle-theme-nova": "1.4.1"
   },
   "devDependencies": {
     "autoprefixer-core": "^6.0.1",
