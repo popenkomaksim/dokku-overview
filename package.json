@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dokku-overview",
     "copy:static": "copyfiles index.html .nojekyll 404.html ./dokku-overview/ && echo 'Static files copied.'",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
