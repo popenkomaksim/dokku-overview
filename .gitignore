@@ -1,5 +1,6 @@
 node_modules
 dist
+dokku-overview
 npm-debug.log
 .idea
 .DS_Store

@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "copy:static": "copyfiles index.html .nojekyll 404.html ./dist/ && echo 'Static files copied.'",
+    "copy:static": "copyfiles index.html .nojekyll 404.html ./dokku-overview/ && echo 'Static files copied.'",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js && npm run copy:static",
     "lint": "eslint --ext .js,.jsx .",
     "deploy": "npm run clean & npm run build && node gh-pages.js",
