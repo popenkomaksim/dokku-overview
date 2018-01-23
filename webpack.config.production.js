@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "dokku-overview"),
     filename: "bundle.js",
-    publicPath: "/dokku-overview/"
+    publicPath: "/"
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
