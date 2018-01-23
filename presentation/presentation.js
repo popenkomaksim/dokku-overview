@@ -215,13 +215,13 @@ class Presentation extends React.Component {
               4 sponsors and 30 backers
             </ListItem>
             <ListItem>
-              🌟&nbsp;14,951 on GitHub
+              ⭐&nbsp;14 951 on GitHub
             </ListItem>
             <ListItem>
               👨‍👨‍👧‍👦&nbsp;100 contributors
             </ListItem>
             <ListItem>
-              🎊&nbsp;4`024 commits
+              🎊&nbsp;4 024 commits
             </ListItem>
             <ListItem>
               🚀&nbsp;90 releases
