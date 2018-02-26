@@ -4,20 +4,21 @@ var path = require("path");
 var webpack = require("webpack");
 
 module.exports = {
-  devtool: "source-map",
+  devtool: "cheap-module-source-map",
   entry: [
-    "webpack-hot-middleware/client",
     "babel-polyfill",
+    'webpack-hot-middleware/client',
+    "react-hot-loader/patch",
     "./index"
   ],
   output: {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/dist/"
+    publicPath: "/dist",
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+    new webpack.NamedModulesPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ],
   module: {
     loaders: [{
@@ -27,28 +28,14 @@ module.exports = {
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
       loader: "babel-loader",
-      query: {
-        presets:['react', 'es2015'],
-        env: {
-          development: {
-            plugins: [["react-transform", {
-              transforms: [{
-                transform: "react-transform-hmr",
-                imports: ["react"],
-                locals: ["module"]
-              }]
-            }]]
-          }
-        }
-      }
-    },
-     {
+      include: __dirname
+    }, {
       test: /\.css$/,
-      loaders: ["style", "raw"],
+      loaders: ["style-loader", "raw-loader"],
       include: __dirname
     }, {
       test: /\.svg$/,
-      loader: "url?limit=10000&mimetype=image/svg+xml",
+      loader: "url-loader?limit=10000&mimetype=image/svg+xml",
       include: path.join(__dirname, "assets")
     }, {
       test: /\.png$/,
