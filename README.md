@@ -1,4 +1,4 @@
-# Dokku Overview
+# Code, Deployment, and You
 
 ## Build & Deployment
 
@@ -30,12 +30,20 @@ https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructur
 
 ## Quotes
 All the best games are easy to learn and difficult to master -- Nolan Bushnell
+Deployment as easy as 1, 2... well, you get the idea. –  Larysa Petrivna Kosach-Kvitka
 
 
 
 ## Links
 https://blog.thesparktree.com/continuous-deployment-with-dokku-full-guide
 
+
+## Projects
+https://zeit.co/now
+http://surge.sh/
+http://deployd.com/
+http://heroku.com/
+https://azure.microsoft.com/en-gb/
 
 
 
