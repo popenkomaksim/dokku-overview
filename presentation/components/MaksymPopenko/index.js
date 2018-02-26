@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-
+import PropTypes from 'prop-types';
 import { Link } from 'spectacle';
 
-class Maskym extends Component {
+
+class MaksymPopenko extends Component {
 
   renderMe() {
     const styles = {
@@ -33,8 +34,8 @@ class Maskym extends Component {
 
 }
 
-Maskym.propTypes = {
-  photo: React.PropTypes.string.isRequired
+MaksymPopenko.propTypes = {
+  photo: PropTypes.string.isRequired,
 };
 
-export default Maskym;
+export default MaksymPopenko;

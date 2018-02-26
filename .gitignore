@@ -1,6 +1,7 @@
+.DS_Store
 node_modules
 dist
 dokku-overview
 npm-debug.log
-.idea
-.DS_Store
+dist
+.idea/*
