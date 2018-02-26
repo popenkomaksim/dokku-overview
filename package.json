@@ -8,10 +8,9 @@
     "copy:static": "copyfiles index.html .nojekyll 404.html ./dokku-overview/ && echo 'Static files copied.'",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
-    "deploy": "npm run clean & npm run build && surge -p .",
+    "deploy": "npm run clean & npm run build && npm run copy:static  && echo 'node gh-pages.js'",
     "export": "spectacle-renderer --delay 3000",
     "start": "cross-env NODE_ENV=development node server.js"
-    "deploy": "npm run clean & npm run build && npm run copy:static  && echo 'node gh-pages.js'",
   },
   "author": "",
   "license": "MIT",
