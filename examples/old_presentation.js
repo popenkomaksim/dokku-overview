@@ -21,9 +21,9 @@ import {
   Cite
 } from "spectacle";
 
-import colors from "./theme/colors";
-import createTheme from "./theme";
-import fonts from "./theme/fonts";
+import colors from "../presentation/theme/colors";
+import createTheme from "../presentation/theme/index";
+import fonts from "../presentation/theme/fonts";
 import Maskym from "./components/Maskym";
 
 // Import Spectacle Core tags
@@ -33,8 +33,8 @@ import Maskym from "./components/Maskym";
 // Import theme
 
 // Require CSS
-require("normalize.css");
-require("./theme/index.css");
+require("../node_modules/normalize.css/normalize.css");
+require("../presentation/theme/index.css");
 
 const images = {
   me: require("../assets/avatar.jpg"),
