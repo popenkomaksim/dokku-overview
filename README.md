@@ -1,6 +1,4 @@
-# Code-Splitting in React apps
-
-The talk for [**React Poznan** Meeting](https://www.meetup.com/React-Poznan/events/240294658/).
+# Dokku Overview
 
 ## Build & Deployment
 
@@ -16,3 +14,28 @@ If you want to deploy the slideshow to surge, run `npm run deploy`
 * On the presentation screen visit http://localhost:3000
 
 You can toggle the presenter or overview mode by pressing `atl + p` or `alt + o`.
+
+
+##
+https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure
+
+
+## Emoji
+⚠ Warning
+🚸 Children Crossing
+⛔ No Entry
+🚫 Prohibited
+🚳 No Bicycles
+
+
+## Quotes
+All the best games are easy to learn and difficult to master -- Nolan Bushnell
+
+
+
+## Links
+https://blog.thesparktree.com/continuous-deployment-with-dokku-full-guide
+
+
+
+
