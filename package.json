@@ -1,19 +1,22 @@
 {
-  "name": "spectacle-boilerplate",
-  "version": "1.0.1",
+  "name": "code-deployment-and-you",
+  "version": "1.0.2",
   "description": "ReactJS Powered Presentation Framework",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dokku-overview",
+    "copy:static": "copyfiles index.html .nojekyll 404.html ./dokku-overview/ && echo 'Static files copied.'",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
     "deploy": "npm run clean & npm run build && surge -p .",
     "export": "spectacle-renderer --delay 3000",
     "start": "cross-env NODE_ENV=development node server.js"
+    "deploy": "npm run clean & npm run build && npm run copy:static  && echo 'node gh-pages.js'",
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "1.1.0",
     "normalize.css": "7.0.0",
     "prop-types": "15.6.0",
     "react": "^16.0.0",
