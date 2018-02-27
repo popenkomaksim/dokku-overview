@@ -1,20 +1,16 @@
 import React from "react";
-import images from './images';
+import {Deck, Slide, Magic} from "spectacle";
+import colors from "./theme/colors";
+import createTheme from "./theme";
+import fonts from "./theme/fonts";
 
-import {
-  Deck,
-  Slide
-} from "spectacle";
+import('./images');
 
 // import createTheme from "spectacle/lib/themes/default";
 // require("spectacle/lib/themes/default/index.css");
 
 require("normalize.css");
 require("./theme/index.css");
-
-import colors from "./theme/colors";
-import createTheme from "./theme";
-import fonts from "./theme/fonts";
 
 const theme = createTheme(
   {
@@ -41,15 +37,22 @@ const theme = createTheme(
   }
 );
 
+
 const slidesImports = [
-  import("./slides/In"),
-  import("./slides/2"),
-  import("./slides/3"),
-  import("./slides/4"),
-  import("./slides/5"),
-  import("./slides/6"),
-  import("./slides/7"),
-  import("./slides/8"),
+  import("./slides/Intro/Hello"),
+  import("./components/DataArtSlide"),
+  import("./slides/Intro/TheStoryOfDeploy"),
+  import("./slides/Intro/MemeHead"),
+  import("./slides/Quotes/ManagingServers"),
+  import("./slides/12factor/FullList"),
+  import("./slides/12factor/KeyList"),
+  import("./slides/Heroku/Intro"),
+  import("./slides/Heroku/Buildpacks"),
+  import("./slides/Heroku/Addons"),
+  import("./slides/Heroku/AddPostgre"),
+  import("./slides/Quotes/AsEasyAs"),
+  import("./slides/Dokku/Intro"),
+  import("./slides/Dokku/GithubPrntSrc"),
   import("./components/ThankYouSlide")
 ];
 
@@ -57,7 +60,7 @@ export default class Presentation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      slides: Array(slidesImports.length).fill(<Slide key="loading" />)
+      slides: Array(slidesImports.length).fill(<Slide key="loading"/>)
     };
   }
 
@@ -67,18 +70,18 @@ export default class Presentation extends React.Component {
       slidesImportsResolved.forEach((slide) => {
         importedSlides.push(slide.default);
       });
-      this.setState({ slides: importedSlides });
+      this.setState({slides: importedSlides});
     });
   }
 
   render() {
-    const { slides } = this.state;
+    const {slides} = this.state;
     return (
       <Deck
         progress="bar"
         theme={theme}
         transition={["fade"]}
-        transitionDuration={500}
+        transitionDuration={244}
       >
         {
           slides.map((slide, index) => {

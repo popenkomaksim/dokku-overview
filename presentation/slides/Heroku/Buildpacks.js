@@ -7,6 +7,6 @@ export default (
     <Heading textColor="white" size={1}>
       Officially supported buildpacks
     </Heading>
-    <Image src={images.herokuBuildpacks.replace("/", "")} width="80%"/>
+    <Image src={images.herokuBuildpacks.replace("/", "")} width="100%"/>
   </Slide>
 );

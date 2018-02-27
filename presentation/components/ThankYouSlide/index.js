@@ -21,7 +21,7 @@ import images from '../../images';
 export default (
 <Slide
   transition={["fade"]}
-  bgImage={images.ironmanThanks.replace("/", "")}
+  bgImage={images.LeonardoDicaprioCheersMeme.replace("/", "")}
   bgDarken={0.55}
 >
   <Heading size={1} textColor="white" style={{ fontSize: "2.5em" }}>
