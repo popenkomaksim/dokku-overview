@@ -28,7 +28,7 @@ export default (
           `}
   >
     <Heading size={1} textColor="white">
-      dokku github prnts
+      TerminalExample
     </Heading>
   </Slide>
 );
