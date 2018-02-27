@@ -48,6 +48,7 @@ const slidesImports = [
   import("./slides/Quotes/ManagingServers"),
   import("./slides/12factor"),
   import("./slides/12factor/KeyList"),
+  import("./slides/ImmutableInfrastructure"),
 
   import("./slides/Heroku"),
   import("./slides/Heroku/Intro"),
