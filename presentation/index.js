@@ -48,6 +48,7 @@ const slidesImports = [
   import("./slides/Quotes/ManagingServers"),
   import("./slides/12factor"),
   import("./slides/12factor/KeyList"),
+  import("./slides/ImmutableInfrastructure"),
 
   import("./slides/Heroku"),
   import("./slides/Heroku/Intro"),
@@ -58,7 +59,11 @@ const slidesImports = [
 
   import("./slides/Dokku"),
   import("./slides/Dokku/Intro"),
-  import("./slides/Dokku/GithubPrntSrc"),
+  import("./slides/Dokku/TerminalExample"),
+
+  import("./slides/Quotes/EasyLearn"),
+  import("./slides/Conclusion/no"),
+  import("./slides/Conclusion/yes"),
 
   import("./components/ThankYouSlide")
 ];

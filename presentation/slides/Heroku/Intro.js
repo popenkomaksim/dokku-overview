@@ -47,17 +47,17 @@ export default (
         <TableRow>
           <TableItem>
             <Text textColor="white">
-              😀<br/>Buildpacks<br/>no need to manage Servers, Dockerfile, Images, free space ...
+              😀<br/>Buildpacks<br/>No need to manage Servers, Dockerfile, Images, free space ...
             </Text>
           </TableItem>
           <TableItem>
             <Text textColor="white">
-              😁<br/>Add-ons<br/>add MongoDB by to your app just clicking several buttons
+              😁<br/>Add-ons<br/>Add MongoDB by to your app just clicking several buttons
             </Text>
           </TableItem>
           <TableItem>
             <Text textColor="white">
-              😂<br/>Buttons<br/>one click apps installation. TestFlight boarding page? Plug&Play!
+              😂<br/>Buttons<br/>One click apps installation. TestFlight boarding page? Plug&Play!
             </Text>
           </TableItem>
         </TableRow>
