@@ -28,7 +28,7 @@ export default (
           `}
   >
     <Heading size={1} textColor="white">
-      TheStoryOfDeploy
+      Simple example of legacy deployment procedure from my project with bad outcome
     </Heading>
   </Slide>
 );

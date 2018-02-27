@@ -28,7 +28,7 @@ export default (
           `}
   >
     <Heading size={1} textColor="white">
-      Meme Heads
+      funny meme about deployments
     </Heading>
   </Slide>
 );
