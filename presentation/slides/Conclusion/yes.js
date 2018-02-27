@@ -19,19 +19,22 @@ export default (
       style={{listStyle: "none", textAlign: "center"}}
     >
       <ListItem style={{ textAlign: "left" }}>
-        👍 Learn
+        🙆🏻 Play with Dokku (DigitalOcean One Click Apps)
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
-        👌 Try
+        👌 Ensure that environments can be created and destroyed quickly and on demand.
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
-        🙆🏻 New projects try to use Dokku
+        👍 Do not share any infrastructure between environments.
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
-        💛
+        💛 Minimize the difference between environments.
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
-        😊 Hit and Run
+        😊 PhoenixServer: machines are simply thrown away rather than upgraded
+      </ListItem>
+      <ListItem style={{ textAlign: "left" }}>
+        😊 split your architecture into layers: Visible  Volatile Persistent
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
         😍 And make development great again
