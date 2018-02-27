@@ -4,11 +4,10 @@
   "description": "ReactJS Powered Presentation Framework",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf dokku-overview",
-    "copy:static": "copyfiles index.html .nojekyll 404.html ./dokku-overview/ && echo 'Static files copied.'",
+    "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
-    "deploy": "npm run clean & npm run build && npm run copy:static  && echo 'node gh-pages.js'",
+    "deploy": "npm run clean & npm run build && echo 'node gh-pages.js'",
     "export": "spectacle-renderer --delay 3000",
     "start": "cross-env NODE_ENV=development node server.js"
   },
