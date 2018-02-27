@@ -6,7 +6,9 @@ import {
   Link,
   ListItem,
   List,
+  Fit,
   Slide,
+  S,
   Layout,
   Text,
   Fill,
@@ -14,7 +16,13 @@ import {
   BlockQuote,
   Quote,
   Markdown,
-  Cite
+  Cite,
+  TableBody,
+  TableHeader,
+  TableHeaderItem,
+  TableItem,
+  TableRow,
+  Table
 } from "spectacle";
 import images from '../../images';
 
@@ -28,19 +36,36 @@ export default (
           `}
   >
     <Heading size={1} textColor="white">
-      heroku overview
+      Heroku Intro
     </Heading>
-    <Heading
-      size={1}
-      textColor="white"
-      style={{ marginTop: "0.5em", fontSize: "2em" }}
-    >
-      🤔
-    </Heading>
-    <Image src={images.herokuLogo.replace("/", "")}  width="100%"/>
-    <Text>
-      Buildpacks && Add-ons && Buttons
+    <Text textColor="white">
+      Cloud platform as a service (PaaS) that is used as a web application deployment model.
     </Text>
-    <Image src={images.heroku.replace("/", "")} width="100%"/>
+    <br/>
+    <Table>
+      <TableBody>
+        <TableRow>
+          <TableItem>
+            <Text textColor="white">
+              😀<br/>Buildpacks<br/>no need to manage Servers, Dockerfile, Images, free space ...
+            </Text>
+          </TableItem>
+          <TableItem>
+            <Text textColor="white">
+              😁<br/>Add-ons<br/>add MongoDB by to your app just clicking several buttons
+            </Text>
+          </TableItem>
+          <TableItem>
+            <Text textColor="white">
+              😂<br/>Buttons<br/>one click apps installation. TestFlight boarding page? Plug&Play!
+            </Text>
+          </TableItem>
+        </TableRow>
+      </TableBody>
+    </Table>
+    <br/>
+    <Text textColor="white">
+      😐 Costs as much as <S type='strikethrough'>Heroin</S> x4 Amazon EC2
+    </Text>
   </Slide>
 );

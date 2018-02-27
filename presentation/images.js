@@ -26,8 +26,11 @@ const images = {
   // realPhone: require("../assets/real-phone.jpg"),
   // waterfalls: require("../assets/waterfalls.jpg"),
   // heroku: require("../assets/heroku.gif"),
+  factorHomepage: require("../assets/12factor-homepage.png"),
+  dokkuGithub: require("../assets/dokku-github.png"),
   heroku: require("../assets/waterfalls.jpg"),
   herokuLogo: require("../assets/heroku-logo.svg"),
+  herokuHomepage: require("../assets/heroku-homepage.png"),
   herokuBuildpacks: require("../assets/heroku-buildpacks.png"),
 };
 
