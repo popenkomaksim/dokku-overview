@@ -61,6 +61,7 @@ const slidesImports = [
   import("./slides/Dokku/Intro"),
   import("./slides/Dokku/GithubPrntSrc"),
 
+  import("./slides/Quotes/EasyLearn"),
   import("./slides/Conclusion/no"),
   import("./slides/Conclusion/yes"),
 
