@@ -9,6 +9,7 @@ export default (
             <ul>
               <li>Introduce yourself</li>
               <li>Development process could be tricky</li>
+              <li>https://martinfowler.com/bliki/PhoenixServer.html</li>
             </ul>
 `}
   >
