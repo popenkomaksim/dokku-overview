@@ -39,20 +39,27 @@ const theme = createTheme(
 
 
 const slidesImports = [
-  import("./slides/Intro/Hello"),
+  import("./slides/Intro/"),
   import("./components/DataArtSlide"),
+
   import("./slides/Intro/TheStoryOfDeploy"),
   import("./slides/Intro/MemeHead"),
+
   import("./slides/Quotes/ManagingServers"),
-  import("./slides/12factor/FullList"),
+  import("./slides/12factor"),
   import("./slides/12factor/KeyList"),
+
+  import("./slides/Heroku"),
   import("./slides/Heroku/Intro"),
   import("./slides/Heroku/Buildpacks"),
   import("./slides/Heroku/Addons"),
   import("./slides/Heroku/AddPostgre"),
   import("./slides/Quotes/AsEasyAs"),
+
+  import("./slides/Dokku"),
   import("./slides/Dokku/Intro"),
   import("./slides/Dokku/GithubPrntSrc"),
+
   import("./components/ThankYouSlide")
 ];
 

@@ -45,10 +45,10 @@ export default (
     </div>
     <Link
       textColor="white"
-      href="http://example.com/link/to/presentation"
+      href="http://deployment.popenko.pp.ua/"
       target="__blank"
     >
-      https://popenkomaksim.github.io/code-deployment-and-you/
+      http://deployment.popenko.pp.ua/
     </Link>
   </Slide>
 );
