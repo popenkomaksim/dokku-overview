@@ -24,6 +24,9 @@ export default (
       <ListItem style={{ textAlign: "left" }}>
         First commit dated to Jun 8, 2013
       </ListItem>
+      <ListItem>
+        Originally written in just 100 lines of Bash
+      </ListItem>
       <ListItem style={{ textAlign: "left" }}>
         4 sponsors and 30 backers
       </ListItem>

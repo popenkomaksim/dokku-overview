@@ -52,7 +52,7 @@ export default (
           </TableItem>
           <TableItem>
             <Text textColor="white">
-              😁<br/>Add-ons<br/>Add MongoDB by to your app just clicking several buttons
+              😁<br/>Add-ons<br/>Add MongoDB to your app just clicking several buttons
             </Text>
           </TableItem>
           <TableItem>
