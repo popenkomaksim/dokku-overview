@@ -19,7 +19,7 @@ export default (
       style={{listStyle: "none", textAlign: "center"}}
     >
       <ListItem style={{ textAlign: "left" }}>
-        ⚠ Warning
+        ⚠ Erosion-resistance & Explicit Contracts
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
         🚸 Document all the things
