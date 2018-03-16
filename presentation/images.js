@@ -1,7 +1,7 @@
 import preloader from "spectacle/lib/utils/preloader";
 
 const images = {
-  me: require("../assets/avatar.jpg"),
+  me: require("../assets/Avatar.png"),
   deploy: require("../assets/deploy.jpg"),
   LeonardoDicaprioCheersMeme: require("../assets/LeonardoDicaprioCheersMeme.gif"),
   ironmanThanks: require("../assets/ironman-thanks.gif"),
