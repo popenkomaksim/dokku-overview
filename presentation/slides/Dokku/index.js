@@ -22,8 +22,8 @@ export default (
   <Slide
     transition={["fade"]}
     bgColor="blue"
-    bgImage={images.dokkuGithub.replace("/", "")}
-    bgDarken={0.7}
+    bgImage={images.dokkuSite.replace("/", "")}
+    bgDarken={0.33}
     notes={`
             Hands up who knows about Heroku?
             Who have ever used it in apps?
