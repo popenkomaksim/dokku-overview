@@ -29,10 +29,7 @@ export default (
       ... then start to use external CI/CD tool
     </Text>
     <Text textColor="white">
-      Docker.
-    </Text>
-    <Text textColor="white">
-      Heroku, Dokku
+      Docker. Heroku. Dokku.
     </Text>
   </Slide>
 );
