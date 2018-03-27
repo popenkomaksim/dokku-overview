@@ -27,6 +27,7 @@ const images = {
   // waterfalls: require("../assets/waterfalls.jpg"),
   // heroku: require("../assets/heroku.gif"),
   factorHomepage: require("../assets/12factor-homepage.png"),
+  dokkuSite: require("../assets/dokku-site.jpg"),
   dokkuGithub: require("../assets/dokku-github.png"),
   heroku: require("../assets/waterfalls.jpg"),
   herokuLogo: require("../assets/heroku-logo.svg"),

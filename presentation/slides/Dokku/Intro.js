@@ -1,9 +1,12 @@
 import React from "react";
 import {Heading, List, ListItem, Slide, Text, S} from "spectacle";
+import images from "../../images";
 
 export default (
   <Slide
     textColor="white"
+    bgImage={images.dokkuGithub.replace("/", "")}
+    bgDarken={0.75}
     transition={["fade"]}
     notes={`
             <ul>
