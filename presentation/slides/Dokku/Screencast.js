@@ -28,7 +28,7 @@ export default (
           `}
   >
     <Heading size={1} textColor="white">
-      Add Addon Example
+      Dokku ScreenCast Example
     </Heading>
   </Slide>
 );

@@ -21,13 +21,10 @@ import images from '../../images';
 export default (
   <Slide
     transition={["fade"]}
+    bgImage={images.heroku.replace("/", "")}
     bgColor="blue"
     notes={`
           `}
   >
-    <Heading size={1} textColor="white">
-      Add-ons
-    </Heading>
-    <Image src={images.herokuAddons.replace("/", "")} width="100%"/>
   </Slide>
 );

@@ -5,8 +5,8 @@ import images from '../../images';
 export default (
   <Slide transition={[]}>
     <Heading textColor="white" size={1}>
-      Officially Supported Buildpacks
+      Pricing
     </Heading>
-    <Image src={images.herokuBuildpacks.replace("/", "")} width="100%"/>
+    <Image src={images.herokuPricing.replace("/", "")} width="100%"/>
   </Slide>
 );

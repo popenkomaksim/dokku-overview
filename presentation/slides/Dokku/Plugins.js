@@ -23,11 +23,21 @@ export default (
     transition={["fade"]}
     bgColor="blue"
     notes={`
+            Hands up who knows about Heroku?
+            Who have ever used it in apps?
           `}
   >
     <Heading size={1} textColor="white">
-      Add-ons
+      Dokku Plugins
     </Heading>
-    <Image src={images.herokuAddons.replace("/", "")} width="100%"/>
+    <Text textColor="white">
+      1
+    </Text>
+    <Text textColor="white">
+      2
+    </Text>
+    <Text textColor="white">
+      3
+    </Text>
   </Slide>
 );

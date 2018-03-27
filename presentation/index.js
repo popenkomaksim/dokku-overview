@@ -53,14 +53,17 @@ const slidesImports = [
 
   import("./slides/Heroku"),
   import("./slides/Heroku/Intro"),
+  import("./slides/Heroku/Visualise"),
   import("./slides/Heroku/Buildpacks"),
   import("./slides/Heroku/Addons"),
-  import("./slides/Heroku/AddPostgre"),
+  import("./slides/Heroku/Pricing"),
   import("./slides/Quotes/AsEasyAs"),
 
   import("./slides/Dokku"),
   import("./slides/Dokku/Intro"),
   import("./slides/Dokku/TerminalExample"),
+  import("./slides/Dokku/Plugins"),
+  import("./slides/Dokku/Screencast"),
 
   import("./slides/Quotes/EasyLearn"),
   import("./slides/OtherProjects"),

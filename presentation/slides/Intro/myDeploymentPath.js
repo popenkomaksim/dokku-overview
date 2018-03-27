@@ -13,8 +13,8 @@ export default (
             </ul>
 `}
   >
-    <Heading size={1}>
-      My deployment tool path
+    <Heading size={4}>
+      My Deployment Tool Evolution Path
     </Heading>
     <Text textColor="white">
       FTP/SFTP on PHP site hosting
@@ -23,16 +23,13 @@ export default (
       ... then start manage own server
     </Text>
     <Text textColor="white">
-      manual git pull deployment on server
+      Manual git pull deployment on server
     </Text>
     <Text textColor="white">
-      ... using external CI/CD tool
+      ... then start to use external CI/CD tool
     </Text>
     <Text textColor="white">
-      Docker.
-    </Text>
-    <Text textColor="white">
-      Heroku, Dokku
+      Docker. Heroku. Dokku.
     </Text>
   </Slide>
 );
