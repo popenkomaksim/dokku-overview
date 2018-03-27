@@ -10,6 +10,7 @@ import {
   Layout,
   Text,
   Fill,
+  Fit,
   Image,
   BlockQuote,
   Quote,
@@ -31,17 +32,18 @@ export default (
     <Heading size={1} textColor="white">
       Projects to discover
     </Heading>
-    <Text textColor="white">
-      Flynn
-    </Text>
-    <Text textColor="white">
-      Kubernetes
-    </Text>
-    <Text textColor="white">
-      Deis Workflow
-    </Text>
-    <Text textColor="white">
-      Docker Swarm
-    </Text>
+    <Image src={images.heads.replace("/", "")} width="34%"/>
+    {/*<Text textColor="white">*/}
+      {/*Flynn*/}
+    {/*</Text>*/}
+    {/*<Text textColor="white">*/}
+      {/*Kubernetes*/}
+    {/*</Text>*/}
+    {/*<Text textColor="white">*/}
+      {/*Deis Workflow*/}
+    {/*</Text>*/}
+    {/*<Text textColor="white">*/}
+      {/*Docker Swarm*/}
+    {/*</Text>*/}
   </Slide>
 );

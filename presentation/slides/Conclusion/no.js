@@ -13,7 +13,7 @@ export default (
 `}
   >
     <Heading size={1}>
-      No-man
+      Instead of Conclusion. "No" Part
     </Heading>
     <List
       style={{listStyle: "none", textAlign: "center"}}
