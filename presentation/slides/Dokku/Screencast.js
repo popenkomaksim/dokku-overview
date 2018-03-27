@@ -23,11 +23,12 @@ export default (
     transition={["fade"]}
     bgColor="blue"
     notes={`
+            Hands up who knows about Heroku?
+            Who have ever used it in apps?
           `}
   >
     <Heading size={1} textColor="white">
-      Add-ons
+      Dokku ScreenCast Example
     </Heading>
-    <Image src={images.herokuAddons.replace("/", "")} width="100%"/>
   </Slide>
 );

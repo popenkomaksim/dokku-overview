@@ -13,7 +13,7 @@ export default (
             </ul>
 `}
   >
-    <Heading size={1}>
+    <Heading size={2}>
       My deployment tool path
     </Heading>
     <Text textColor="white">
