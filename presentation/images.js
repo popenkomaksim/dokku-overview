@@ -24,7 +24,7 @@ const images = {
   // sourceMap: require("../assets/source-map-analizer.png"),
   // realPhone: require("../assets/real-phone.jpg"),
   // waterfalls: require("../assets/waterfalls.jpg"),
-  // heroku: require("../assets/heroku.gif"),
+  ci: require("../assets/ci.jpg"),
   factorHomepage: require("../assets/12factor-homepage.png"),
   dokkuSite: require("../assets/dokku-site.jpg"),
   dokkuGithub: require("../assets/dokku-github.png"),

@@ -1,5 +1,5 @@
 import React from "react";
-import {Heading, List, ListItem, Slide, Text, S} from "spectacle";
+import {Appear, Heading, List, ListItem, Slide, Text} from "spectacle";
 
 export default (
   <Slide
@@ -14,32 +14,40 @@ export default (
 `}
   >
     <Heading size={1}>
-      Yes-man
+      Instead of Conclusion. "Yes" Part
     </Heading>
     <List
-      style={{listStyle: "none", textAlign: "center"}}
+      style={{listStyle: "none", textAlign: "left"}}
     >
-      <ListItem style={{ textAlign: "left" }}>
-        🙆🏻 Play with Dokku (DigitalOcean One Click Apps)
+      <ListItem>
+        😊 PhoenixServer: machines are simply thrown away rather than upgraded.
       </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        👌 Ensure that environments can be created and destroyed quickly and on demand.
+      <ListItem>
+        😇 split your architecture into layers:
       </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        👍 Do not share any infrastructure between environments.
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        💛 Minimize the difference between environments.
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        😊 PhoenixServer: machines are simply thrown away rather than upgraded
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        😊 split your architecture into layers: Visible  Volatile Persistent
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        😍 And make development great again
+      <ListItem style={{listStyle: "none", textAlign: "center"}}>
+        Visible 👉🏻 Volatile 🤜🏻 Persistent
       </ListItem>
     </List>
+    <Appear>
+      <List
+        style={{listStyle: "none", textAlign: "left"}}
+      >
+        <ListItem>
+          👌 Ensure that environments can be created and destroyed quickly and on demand.
+        </ListItem>
+        <ListItem>
+          👍 Do not share any infrastructure between environments.
+        </ListItem>
+        <ListItem>
+          💛 Minimize the difference between environments.
+        </ListItem>
+      </List>
+    </Appear>
+    <Appear>
+      <Text textColor="lightGray">
+        😍 And make development great again
+      </Text>
+    </Appear>
   </Slide>
 );

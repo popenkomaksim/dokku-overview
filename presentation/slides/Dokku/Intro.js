@@ -22,12 +22,15 @@ export default (
       style={{listStyle: "none", textAlign: "center"}}
     >
       <ListItem style={{ textAlign: "left" }}>
-        Open Sourced Project – MIT License
+
+      </ListItem>
+      <ListItem style={{ textAlign: "left" }}>
+        MIT Licensed Docker Deployment Software
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
         First commit dated to Jun 8, 2013
       </ListItem>
-      <ListItem>
+      <ListItem style={{ textAlign: "left" }}>
         Originally written in just 100 lines of Bash
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>

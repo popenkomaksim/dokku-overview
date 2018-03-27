@@ -44,12 +44,11 @@ const slidesImports = [
 
   import("./slides/Intro/MyDeploymentPath"),
   import("./slides/Intro/TheStoryOfDeploy"),
-  import("./slides/Intro/MemeHead"),
+  import("./slides/Intro/Joke"),
 
   import("./slides/Quotes/ManagingServers"),
   import("./slides/12factor"),
   import("./slides/12factor/KeyList"),
-  import("./slides/ImmutableInfrastructure"),
 
   import("./slides/Heroku"),
   import("./slides/Heroku/Intro"),
@@ -67,6 +66,8 @@ const slidesImports = [
 
   import("./slides/Quotes/EasyLearn"),
   import("./slides/OtherProjects"),
+
+  import("./slides/ImmutableInfrastructure"),
 
   import("./slides/Conclusion/no"),
   import("./slides/Conclusion/yes"),
