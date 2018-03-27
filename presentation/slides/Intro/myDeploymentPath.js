@@ -23,10 +23,10 @@ export default (
       ... then start manage own server
     </Text>
     <Text textColor="white">
-      manual git pull deployment on server
+      Manual git pull deployment on server
     </Text>
     <Text textColor="white">
-      ... using external CI/CD tool
+      ... then start to use external CI/CD tool
     </Text>
     <Text textColor="white">
       Docker.
