@@ -4,7 +4,6 @@ const images = {
   me: require("../assets/Avatar.jpg"),
   deploy: require("../assets/deploy.jpg"),
   LeonardoDicaprioCheersMeme: require("../assets/LeonardoDicaprioCheersMeme.gif"),
-  ironmanThanks: require("../assets/ironman-thanks.gif"),
   // compose: require("../assets/compose.gif"),
   // mainCover: require("../assets/main-cover.jpg"),
   dataart: require("../assets/dataart.png"),
