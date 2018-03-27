@@ -13,8 +13,8 @@ export default (
             </ul>
 `}
   >
-    <Heading size={2}>
-      My deployment tool path
+    <Heading size={4}>
+      My Deployment Tool Evolution Path
     </Heading>
     <Text textColor="white">
       FTP/SFTP on PHP site hosting
