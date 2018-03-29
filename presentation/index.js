@@ -51,11 +51,11 @@ const slidesImports = [
   import("./slides/12factor/KeyList"),
 
   import("./slides/Heroku"),
-  import("./slides/Heroku/Intro"),
   import("./slides/Heroku/Visualise"),
+  import("./slides/Heroku/TerminalExample"),
+  import("./slides/Heroku/Intro"),
   import("./slides/Heroku/Buildpacks"),
-  import("./slides/Heroku/Addons"),
-  import("./slides/Heroku/Pricing"),
+
   import("./slides/Quotes/AsEasyAs"),
 
   import("./slides/Dokku"),
@@ -72,7 +72,10 @@ const slidesImports = [
   import("./slides/Conclusion/no"),
   import("./slides/Conclusion/yes"),
 
-  import("./components/ThankYouSlide")
+  import("./components/ThankYouSlide"),
+
+  import("./slides/Heroku/Pricing"),
+  import("./slides/Heroku/Addons"),
 ];
 
 export default class Presentation extends React.Component {
