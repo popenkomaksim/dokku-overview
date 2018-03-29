@@ -55,6 +55,7 @@ const slidesImports = [
   import("./slides/Heroku/TerminalExample"),
   import("./slides/Heroku/Intro"),
   import("./slides/Heroku/Buildpacks"),
+  import("./slides/Heroku/HowItHelps"),
 
   import("./slides/Quotes/AsEasyAs"),
 
