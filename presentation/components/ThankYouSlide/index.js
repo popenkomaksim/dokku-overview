@@ -49,19 +49,6 @@ export default (
     @popenkomaksim
   </Link>
   </ListItem>
-  <ListItem style={{ marginTop: 40 }}>
-    <Link
-      href="http://dataart.com"
-      target="__blank"
-      textColor="white"
-    >
-      <Image
-        width="40%"
-        src={images.dataart.replace("/", "")}
-        style={{ backgroundColor: "white" }}
-      />
-    </Link>
-  </ListItem>
   </List>
 </Slide>
 );
