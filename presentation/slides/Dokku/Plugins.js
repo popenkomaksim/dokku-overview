@@ -31,13 +31,13 @@ export default (
       Dokku Plugins
     </Heading>
     <Text textColor="white">
-      1
+      Redis, MongoDB, Postgre, MySQL/MariaDB, Grafana/Graphite/Statsd
     </Text>
     <Text textColor="white">
-      2
+      Let's Encrypt, Slack Notifications, Tor, Dokku Wordpress
     </Text>
     <Text textColor="white">
-      3
+      and counting
     </Text>
   </Slide>
 );

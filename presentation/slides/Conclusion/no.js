@@ -7,8 +7,9 @@ export default (
     transition={["fade"]}
     notes={`
             <ul>
-              <li>Introduce yourself</li>
-              <li>Development process could be tricky</li>
+              <li>⚠ Erosion-resistance</li>
+              <li>Explicit Contracts</li>
+              <li>🚫</li>
             </ul>
 `}
   >
@@ -16,22 +17,16 @@ export default (
       Instead of Conclusion. "No" Part
     </Heading>
     <List
-      style={{listStyle: "none", textAlign: "center"}}
+      style={{listStyle: "none", textAlign: "left"}}
     >
-      <ListItem style={{ textAlign: "left" }}>
-        ⚠ Erosion-resistance & Explicit Contracts
+      <ListItem>
+        ⛔ Over Engineered Environment
       </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        🚸 Document all the things
+      <ListItem>
+        🚸 Leave "clever hacks" undocumented
       </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        ⛔ No NO NO NO NOOOOO
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        🚫 No local server's changes
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        🚳 No Bicycles
+      <ListItem>
+        🚳 Re-implement best practices
       </ListItem>
     </List>
   </Slide>
