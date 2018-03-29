@@ -27,8 +27,8 @@ export default (
             Who have ever used it in apps?
           `}
   >
-    <Heading size={1} textColor="white">
+    <Text textColor="white">
       The problem is – huge human factor during manual deployments, developer not-friendly deployment procedure (downtimes, errors, many things to manage to do simple tasks) etc.
-    </Heading>
+    </Text>
   </Slide>
 );
