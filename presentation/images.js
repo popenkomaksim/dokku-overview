@@ -5,6 +5,8 @@ const images = {
   deploy: require("../assets/deploy.jpg"),
   LeonardoDicaprioCheersMeme: require("../assets/LeonardoDicaprioCheersMeme.gif"),
   dataart: require("../assets/dataart.png"),
+  // kimchan: require("../assets/kimchan."),
+  elder: require("../assets/elder.jpg"),
   ci: require("../assets/ci.jpg"),
   heads: require("../assets/heads.jpg"),
   factorHomepage: require("../assets/12factor-homepage.png"),
