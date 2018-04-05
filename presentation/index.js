@@ -43,9 +43,9 @@ const slidesImports = [
   import("./components/DataArtSlide"),
 
   import("./slides/Intro/WhatIsDeploy"),
-  import("./slides/Intro/ManualDeployment"),
   import("./slides/Intro/MyDeploymentPath"),
   import("./slides/Intro/TheStoryOfDeploy"),
+  import("./slides/Intro/ManualDeploymentMeme"),
   import("./slides/Intro/Joke"),
 
   import("./slides/Quotes/ManagingServers"),
