@@ -26,8 +26,6 @@ export default (
     transition={["fade"]}
     bgColor="blue"
     notes={`
-            Hands up who knows about Heroku?
-            Who have ever used it in apps?
           `}
   >
     <Terminal
@@ -35,10 +33,10 @@ export default (
       title="1. maksym@popenko: ~(zsh)"
       output={[
         <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 100 }}>
-          $ git push dokku master
+          $ git push heroku master
         </Typist>,
         <div>
-          > git pushes code as is into Dokku repo
+          > git pushes code as is into heroku repo
         </div>,
         <div>
           > Create an optimized production build...

@@ -46,6 +46,7 @@ export default (
       </Appear>
       );
     </Heading>
+    <br/>
     <Appear>
       <Text textColor="white">
         <span style={{ marginTop: "0.5em", fontSize: "2em" }}>🤷</span> HumanFactor has bad impact

@@ -13,6 +13,8 @@ import {
   Image,
   BlockQuote,
   Quote,
+  Appear,
+  S,
   Markdown,
   Cite
 } from "spectacle";
@@ -27,8 +29,40 @@ export default (
             Who have ever used it in apps?
           `}
   >
-    <Heading size={1} textColor="white">
-      Simple example of legacy deployment procedure from my project with bad outcome
+    <Heading>
+      <Link
+        textColor="white"
+        href="https://12factor.net/"
+        target="__blank"
+      >
+        Legacy deployment
+      </Link>
     </Heading>
+    <Text textColor="lightGray" lineHeight={10}>
+      Badly designed infrastructure
+    </Text>
+    <Appear>
+      <Text textColor="lightGray" lineHeight={1000000}>
+        + Unclear dependencies
+      </Text>
+    </Appear>
+    <Appear>
+      <Text textColor="lightGray" lineHeight={10}>
+        + Checkouted local config on server
+      </Text>
+    </Appear>
+    <Appear>
+      <Text textColor="lightGray" lineHeight={10}>
+        + Production differs from staging
+      </Text>
+    </Appear>
+    <Appear>
+      <div>
+      <Text textColor="lightGray" lineHeight={10}>
+        + Friday Deploy =
+      </Text>,
+      <Image src={images.partyhard.replace("/", "")}/>
+      </div>
+    </Appear>
   </Slide>
 );
