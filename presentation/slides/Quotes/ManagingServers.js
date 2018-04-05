@@ -30,7 +30,7 @@ export default (
   >
     <BlockQuote>
       <Quote>
-        Nobody said that managing own server-side applications and servers is easy.
+        Nobody said that managing own applications and servers is easy.
       </Quote>
       <Cite>
         Gregory Skovoroda
