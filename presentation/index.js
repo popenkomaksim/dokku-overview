@@ -42,9 +42,10 @@ const slidesImports = [
   import("./slides/Intro/"),
   import("./components/DataArtSlide"),
 
+  import("./slides/Intro/WhatIsDeploy"),
   import("./slides/Intro/MyDeploymentPath"),
   import("./slides/Intro/TheStoryOfDeploy"),
-  import("./slides/Intro/Joke"),
+  import("./slides/Intro/ManualDeploymentMeme"),
 
   import("./slides/Quotes/ManagingServers"),
   import("./slides/12factor"),
@@ -53,6 +54,7 @@ const slidesImports = [
   import("./slides/Heroku"),
   import("./slides/Heroku/Visualise"),
   import("./slides/Heroku/TerminalExample"),
+  import("./slides/Heroku/GreatJob"),
   import("./slides/Heroku/Intro"),
   import("./slides/Heroku/Buildpacks"),
   import("./slides/Heroku/HowItHelps"),
@@ -62,6 +64,7 @@ const slidesImports = [
   import("./slides/Dokku"),
   import("./slides/Dokku/Intro"),
   import("./slides/Dokku/TerminalExample"),
+  import("./slides/Dokku/GreatJob"),
   import("./slides/Dokku/Plugins"),
   import("./slides/Dokku/Screencast"),
 
@@ -77,6 +80,7 @@ const slidesImports = [
 
   import("./slides/Heroku/Pricing"),
   import("./slides/Heroku/Addons"),
+  import("./slides/Intro/Joke"),
 ];
 
 export default class Presentation extends React.Component {

@@ -25,8 +25,7 @@ export default (
     // bgImage={images.factorHomepage.replace("/", "")}
     // bgDarken={0.1}
     notes={`
-            Hands up who knows about Heroku?
-            Who have ever used it in apps?
+            Dramatically reduce human factor impact
           `}
   >
     <Heading size={1} textColor="white">
