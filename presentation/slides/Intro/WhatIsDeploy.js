@@ -1,6 +1,5 @@
 import React from "react";
-import {Appear, Heading, List, ListItem, Slide, Text, S} from "spectacle";
-import images from "../../images";
+import {Appear, Heading, Slide, Text} from "spectacle";
 
 export default (
   <Slide
@@ -14,7 +13,7 @@ export default (
 `}
   >
     <Heading size={1} textColor="white">
-      What's code deploy?
+      What's deploy?
     </Heading>
     <Heading
       size={1}
@@ -23,7 +22,7 @@ export default (
     >
       🤔
     </Heading>
-    <Heading style={{ marginTop: "0.5em", fontSize: "1.5em" }}>
+    <Heading style={{ marginTop: "0.5em", fontSize: "1.2em", fontFamily: 'monospace' }}>
       App&nbsp;:=&nbsp;deploy(
       <Appear>
           <span>
@@ -47,5 +46,15 @@ export default (
       </Appear>
       );
     </Heading>
+    <Appear>
+      <Text textColor="white">
+        <span style={{ marginTop: "0.5em", fontSize: "2em" }}>🤷</span> HumanFactor has bad impact
+      </Text>
+    </Appear>
+    <Appear>
+      <Text textColor="white">
+        <span style={{ marginTop: "0.5em", fontSize: "2em" }}>💫</span> We need to take care about magic
+      </Text>
+    </Appear>
   </Slide>
 );

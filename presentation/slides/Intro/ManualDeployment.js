@@ -18,6 +18,17 @@ import {
 } from "spectacle";
 import images from '../../images';
 
+const memeTextCSS = {
+  fontFamily: `Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"`,
+  fontWeight: 'bold',
+  textTransform: 'uppercase',
+  textShadow:
+    `-1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000`
+}
+
 export default (
   <Slide
     transition={["fade"]}
@@ -27,7 +38,7 @@ export default (
     notes={`
           `}
   >
-    <Text textColor="black" style={{ fontWeight: 'bold', marginTop: "0.5em",}}>
+    <Text textColor="white" style={memeTextCSS}>
       Who says manual deployment is stressful?
     </Text>
     <br/>
@@ -43,8 +54,8 @@ export default (
     <br/>
     <br/>
     <br/>
-    <Text textColor="black" style={{ fontWeight: 'bold', marginTop: "0.5em",}}>
-      I'm 27, and I fell great!
+    <Text textColor="white" style={memeTextCSS}>
+      I'm 27, and I feel great!
     </Text>
   </Slide>
 );
