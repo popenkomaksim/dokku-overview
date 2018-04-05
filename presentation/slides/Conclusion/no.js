@@ -20,13 +20,13 @@ export default (
       style={{listStyle: "none", textAlign: "left"}}
     >
       <ListItem>
-        ⛔ Over Engineered Environment
+        ⛔ (don't) Over Engineered Environment
       </ListItem>
       <ListItem>
-        🚸 Leave "clever hacks" undocumented
+        🚸 (don't) Leave "clever hacks" undocumented
       </ListItem>
       <ListItem>
-        🚳 Re-implement best practices
+        🚳 (don't) Re-implement best practices
       </ListItem>
     </List>
   </Slide>
