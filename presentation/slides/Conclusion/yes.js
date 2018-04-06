@@ -7,8 +7,8 @@ export default (
     transition={["fade"]}
     notes={`
             <ul>
-              <li>Introduce yourself</li>
-              <li>Development process could be tricky</li>
+              <li>Increased velocity - Shorten the loop between having an idea and deploying to production. Because there's less to provision up front and less to manage after deployment, smaller teams can ship more features. It's easier than ever to make your idea live.</li>
+              <li></li>
               <li>https://martinfowler.com/bliki/PhoenixServer.html</li>
             </ul>
 `}
