@@ -57,7 +57,7 @@ export default (
           </TableItem>
           <TableItem>
             <Text textColor="white">
-              😂<br/>Application Repository<br/>aka Buttons<br/>One click apps installation. TestFlight boarding page? Plug&Play!
+              😂<br/>App Repos<br/>aka Buttons<br/>One click apps installation. TestFlight boarding page? Plug&Play!
             </Text>
           </TableItem>
         </TableRow>
