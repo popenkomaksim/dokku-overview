@@ -37,7 +37,7 @@ export default (
       Let's Encrypt, Slack Notifications, Tor, Dokku Wordpress
     </Text>
     <Text textColor="white">
-      and counting
+      ...more and counting!
     </Text>
   </Slide>
 );
