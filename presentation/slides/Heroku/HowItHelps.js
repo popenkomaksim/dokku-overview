@@ -20,34 +20,14 @@ export default (
       style={{listStyle: "none", textAlign: "left"}}
     >
       <ListItem>
-        😊 PhoenixServer: machines are simply thrown away rather than upgraded.
+        Really working solution of PaaS
       </ListItem>
       <ListItem>
-        Happy Developers
+        Happy Developers: fast, easy and right-here right-now deployments
       </ListItem>
       <ListItem style={{listStyle: "none", textAlign: "center"}}>
-        Poor and hungry DevOps
+        Poor and hungry in-house DevOps team (Joke)
       </ListItem>
     </List>
-    <Appear>
-      <List
-        style={{listStyle: "none", textAlign: "left"}}
-      >
-        <ListItem>
-          👌 Fast deploys
-        </ListItem>
-        <ListItem>
-          👍 It's ok to deploy changes on Friday
-        </ListItem>
-        <ListItem>
-          💛 Dramatically reduce time of deploy (open – click - go drink coffee)
-        </ListItem>
-      </List>
-    </Appear>
-    <Appear>
-      <Text textColor="lightGray">
-        😍 And make development great again
-      </Text>
-    </Appear>
   </Slide>
 );
