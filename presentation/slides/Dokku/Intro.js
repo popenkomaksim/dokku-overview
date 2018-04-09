@@ -34,16 +34,10 @@ export default (
         Originally written in just 100 lines of Bash
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
-        4 sponsors and 30 backers
+        👨‍👨‍👧‍👦&nbsp;4 sponsors, 30 backers and 100 contributors
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
         ⭐&nbsp;15 000+ on GitHub
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        👨‍👨‍👧‍👦&nbsp;100 contributors
-      </ListItem>
-      <ListItem style={{ textAlign: "left" }}>
-        🎊&nbsp;4 000+ commits
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
         🚀&nbsp;90 releases, current v0.11.4

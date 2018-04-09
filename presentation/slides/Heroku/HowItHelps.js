@@ -25,7 +25,7 @@ export default (
       <ListItem>
         Happy Developers: fast, easy and right-here right-now deployments
       </ListItem>
-      <ListItem style={{listStyle: "none", textAlign: "center"}}>
+      <ListItem>
         Poor and hungry in-house DevOps team (Joke)
       </ListItem>
     </List>
