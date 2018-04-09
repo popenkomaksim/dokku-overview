@@ -40,7 +40,7 @@ export default (
         ⭐&nbsp;15 000+ on GitHub
       </ListItem>
       <ListItem style={{ textAlign: "left" }}>
-        🚀&nbsp;90 releases, current v0.11.4
+        🚀&nbsp;90 releases, current v0.12
       </ListItem>
     </List>
     <Text textColor="white">
