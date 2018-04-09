@@ -48,7 +48,7 @@ export default (
     </Appear>
     <Appear>
       <Text textColor="lightGray" lineHeight={10}>
-        + Checkouted local config on server
+        + "git checkout" local config on server
       </Text>
     </Appear>
     <Appear>
