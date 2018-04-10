@@ -29,7 +29,7 @@ export default (
             Who have ever used it in apps?
           `}
   >
-    <Heading>
+    <Heading textColor="lightGray">
       Legacy deployment
     </Heading>
     <Text textColor="lightGray" lineHeight={10}>
