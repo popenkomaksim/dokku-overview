@@ -24,9 +24,7 @@ export default (
     transition={["fade"]}
     bgColor="blue"
     notes={`
-            Hands up who knows about Heroku?
-            http://www.jancarloviray.com/blog/paas-comparison-2017-dokku-flynn-deis-kubernetes-docker-swarm/
-            Who have ever used it in apps?
+            serverless surge ziet now
           `}
   >
     <Heading size={1} textColor="white">

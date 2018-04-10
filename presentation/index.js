@@ -40,8 +40,9 @@ const theme = createTheme(
 
 const slidesImports = [
   import("./slides/Intro/"),
-  import("./components/DataArtSlide"),
+  // import("./components/DataArtSlide"),
 
+  import("./slides/Intro/WhatIsDeployRoutine"),
   import("./slides/Intro/WhatIsDeploy"),
   import("./slides/Intro/MyDeploymentPath"),
   import("./slides/Intro/TheStoryOfDeploy"),
@@ -52,7 +53,8 @@ const slidesImports = [
   import("./slides/12factor/KeyList"),
 
   import("./slides/Heroku"),
-  import("./slides/Heroku/Visualise"),
+  import("./slides/Heroku/VisualiseBefore"),
+  import("./slides/Heroku/VisualiseAfter"),
   import("./slides/Heroku/TerminalExample"),
   import("./slides/Heroku/GreatJob"),
   import("./slides/Heroku/Intro"),

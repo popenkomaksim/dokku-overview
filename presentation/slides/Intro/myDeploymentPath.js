@@ -51,7 +51,7 @@ export default (
             ... then manage own server
           </TableItem>
           <TableItem>
-            100h
+            +100h
           </TableItem>
           <TableItem>
             0.8
@@ -65,7 +65,7 @@ export default (
             SSH + Manual git pull deployment
           </TableItem>
           <TableItem>
-            50h...
+            +50h...
           </TableItem>
           <TableItem>
             0.7
@@ -79,7 +79,7 @@ export default (
             ... adding external CI/CD tool
           </TableItem>
           <TableItem>
-            16h
+            +16h
           </TableItem>
           <TableItem>
             0.6
@@ -93,7 +93,7 @@ export default (
             Docker
           </TableItem>
           <TableItem>
-            30h
+            +30h
           </TableItem>
           <TableItem>
             0.5
@@ -104,10 +104,10 @@ export default (
         </TableRow>
         <TableRow>
           <TableItem>
-            Heroku / Dokku
+            Heroku / Dokku / ServerLess / Zeit Now
           </TableItem>
           <TableItem>
-            30h
+            +30h
           </TableItem>
           <TableItem>
             0.3

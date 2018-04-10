@@ -49,12 +49,12 @@ export default (
     <br/>
     <Appear>
       <Text textColor="white">
-        <span style={{ marginTop: "0.5em", fontSize: "2em" }}>🤷</span> HumanFactor has bad impact
+        <span style={{ marginTop: "0.5em", top: '1rem', position: 'relative', fontSize: "2em" }}>🤷</span> HumanFactor has bad impact
       </Text>
     </Appear>
     <Appear>
       <Text textColor="white">
-        <span style={{ marginTop: "0.5em", fontSize: "2em" }}>💫</span> We need to take care about magic
+        <span style={{ marginTop: "0.5em", top: '1rem', position: 'relative', fontSize: "2em" }}>💫</span> We need to take care about magic
       </Text>
     </Appear>
   </Slide>

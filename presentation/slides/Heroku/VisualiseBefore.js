@@ -22,7 +22,7 @@ export default (
   <Slide
     transition={["fade"]}
     bgColor="blue"
-    bgImage={images.twelveFactorHomepage.replace("/", "")}
+    bgImage={images.herokuAboutBefore.replace("/", "")}
     notes={``}
   >
   </Slide>
