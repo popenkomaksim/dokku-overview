@@ -30,30 +30,24 @@ export default (
           `}
   >
     <Heading>
-      <Link
-        textColor="white"
-        href="https://12factor.net/"
-        target="__blank"
-      >
-        Legacy deployment
-      </Link>
+      Legacy deployment
     </Heading>
     <Text textColor="lightGray" lineHeight={10}>
       Badly designed infrastructure
     </Text>
     <Appear>
       <Text textColor="lightGray" lineHeight={1000000}>
+        + Production differs from staging
+      </Text>
+    </Appear>
+    <Appear>
+      <Text textColor="lightGray" lineHeight={10}>
         + Unclear dependencies
       </Text>
     </Appear>
     <Appear>
       <Text textColor="lightGray" lineHeight={10}>
         + "git checkout" local config on server
-      </Text>
-    </Appear>
-    <Appear>
-      <Text textColor="lightGray" lineHeight={10}>
-        + Production differs from staging
       </Text>
     </Appear>
     <Appear>
