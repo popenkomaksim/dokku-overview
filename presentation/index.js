@@ -63,6 +63,7 @@ const slidesImports = [
 
   import("./slides/Quotes/AsEasyAs"),
 
+  import("./slides/Dokku/Pre"),
   import("./slides/Dokku"),
   import("./slides/Dokku/Intro"),
   import("./slides/Dokku/TerminalExample"),

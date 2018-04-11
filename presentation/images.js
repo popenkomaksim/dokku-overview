@@ -13,6 +13,7 @@ const images = {
   ci: require("../assets/ci.jpg"),
   heads: require("../assets/heads.jpg"),
   twelveFactorHomepage: require("../assets/12factor.png"),
+  preDokku: require("../assets/pre-dokku.jpg"),
   dokkuSite: require("../assets/dokku-site.jpg"),
   dokkuGithub: require("../assets/dokku-github.png"),
   heroku: require("../assets/heroku.gif"),
