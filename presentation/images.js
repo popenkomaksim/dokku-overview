@@ -18,7 +18,7 @@ const images = {
   dokkuGithub: require("../assets/dokku-github.png"),
   heroku: require("../assets/heroku.gif"),
   herokuAboutBefore: require("../assets/heroku.before.jpg"),
-  herokuAboutAfter: require("../assets/heroku.after.png"),
+  herokuAboutAfter: require("../assets/heroku.after.jpg"),
   herokuLogo: require("../assets/heroku-logo.svg"),
   herokuAddons: require("../assets/heroku-addons.png"),
   herokuHomepage: require("../assets/heroku-homepage.png"),
