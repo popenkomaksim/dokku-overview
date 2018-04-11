@@ -16,7 +16,6 @@ const images = {
   preDokku: require("../assets/pre-dokku.jpg"),
   dokkuSite: require("../assets/dokku-site.jpg"),
   dokkuGithub: require("../assets/dokku-github.png"),
-  heroku: require("../assets/heroku.gif"),
   herokuAboutBefore: require("../assets/heroku.before.jpg"),
   herokuAboutAfter: require("../assets/heroku.after.jpg"),
   herokuLogo: require("../assets/heroku-logo.svg"),
@@ -27,6 +26,6 @@ const images = {
   herokuPlatform: require("../assets/heroku-platforms.png"),
 };
 
-// preloader(images);
+preloader(images);
 
 export default images;
