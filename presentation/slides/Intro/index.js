@@ -38,7 +38,7 @@ export default (
       style={{ marginTop: 50, marginBottom: 30 }}
       textColor="white"
     >
-      Some cool meetup, DataArt, Kyiv
+      IT Talk, DataArt, Kyiv
     </Heading>
     <div style={{ marginBottom: 20 }}>
       <MaksymPopenko photo={images.me.replace("/", "")} />
