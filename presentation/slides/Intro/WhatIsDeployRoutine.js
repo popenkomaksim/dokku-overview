@@ -53,7 +53,7 @@ export default (
     </Appear>
     <Appear>
       <Text textColor="white">
-        HTTPS? We need Senior DevOps to do it.
+        HTTPS? We need Senior Configuration Manager to do it.
       </Text>
     </Appear>
   </Slide>

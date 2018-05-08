@@ -42,6 +42,7 @@ const slidesImports = [
   import("./slides/Intro/"),
   // import("./components/DataArtSlide"),
 
+  import("./slides/Intro/ButWhy"),
   import("./slides/Intro/WhatIsDeployRoutine"),
   import("./slides/Intro/WhatIsDeploy"),
   import("./slides/Intro/MyDeploymentPath"),
