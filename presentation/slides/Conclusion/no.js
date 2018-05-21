@@ -26,7 +26,7 @@ export default (
         🚸 (don't) Leave "clever hacks" undocumented
       </ListItem>
       <ListItem>
-        🚳 (don't) Re-implement best practices
+        🚳 (don't) Re-implement the wheel
       </ListItem>
     </List>
   </Slide>
