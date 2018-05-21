@@ -23,7 +23,7 @@ export default (
         Really working solution of PaaS
       </ListItem>
       <ListItem>
-        Happy Developers: fast, easy and right-here right-now deployments
+        Happy Developers: fast, easy and <nobr>right-here</nobr> <nobr>right-now</nobr> deployments
       </ListItem>
       <ListItem>
         Poor and hungry in-house DevOps team (Joke)

@@ -65,7 +65,7 @@ export default (
             SSH + Manual git pull deployment
           </TableItem>
           <TableItem>
-            +50h...
+            +50h
           </TableItem>
           <TableItem>
             0.7
