@@ -22,7 +22,7 @@ export default (
 
         </TableHeaderItem>
         <TableHeaderItem>
-          Learning<br/>Curve<br/><span style={{ marginTop: "0.5em", fontSize: "2em" }}>🎓</span>
+          Learning<br/>Curve<br/><span style={{ fontSize: "2em" }}>🎓</span>
         </TableHeaderItem>
         <TableHeaderItem>
           Human<br/>Factor<br/><span style={{ marginTop: "0.5em", fontSize: "2em" }}>🤷</span>
