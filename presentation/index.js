@@ -1,5 +1,5 @@
 import React from "react";
-import {Deck, Slide, Magic} from "spectacle";
+import { Deck, Slide } from "spectacle";
 import colors from "./theme/colors";
 import createTheme from "./theme";
 import fonts from "./theme/fonts";
@@ -101,12 +101,12 @@ export default class Presentation extends React.Component {
       slidesImportsResolved.forEach((slide) => {
         importedSlides.push(slide.default);
       });
-      this.setState({slides: importedSlides});
+      this.setState({ slides: importedSlides });
     });
   }
 
   render() {
-    const {slides} = this.state;
+    const { slides } = this.state;
     return (
       <Deck
         progress="bar"
@@ -116,7 +116,7 @@ export default class Presentation extends React.Component {
       >
         {
           slides.map((slide, index) => {
-            return React.cloneElement(slide, {key: index});
+            return React.cloneElement(slide, { key: index });
           })
         }
       </Deck>
